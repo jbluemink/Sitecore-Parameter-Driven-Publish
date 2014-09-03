@@ -9,7 +9,7 @@ place the ParameterDrivenPublish.aspx and IsPublishTaskRunning.aspx into the \si
 
 ##Running
 Go the /sitecore/admin/ParameterDrivenPublish.aspx
-Find  the correct querystring parameter en add the url to your continuous integration or continuous delivery system. The page show all the available web databases and lets you choose between full or smart publish
+Find the correct querystring parameter and add the url to your continuous integration or continuous delivery system. The page show all the available web databases and lets you choose between full or smart publish.
 
 For the Is Publish running check go to:
 /sitecore/admin/IsPublishTaskRunning.aspx
