@@ -3,6 +3,7 @@ Sitecore Parameter driven publish deployment tool
 
 On automatically deployment or scripted Sitecore releases you would properly also do a scripted publish. Or maybe just publish to the one that is removed from the load balancer and wait until the publish is finished. With this publish module you can do that, just give your wishes in the url querystring parameters to the module. With a second script IsPublishTaskRunning.aspx you can poll and see when the publish is done.
 
+Read more on [Sitecore Stockpick](http://sitecore.stockpick.nl/) or the artikel [Sitecore development and deployment](http://sitecore.stockpick.nl/english/development-and-deployment.aspx)
 
 ##Download Sitecore marketplace:
 The latest stable version can be downloaded on [Sitecore Marketplace](https://marketplace.sitecore.net/Modules/Parameter_driven_publish_deployment_tool.aspx)
