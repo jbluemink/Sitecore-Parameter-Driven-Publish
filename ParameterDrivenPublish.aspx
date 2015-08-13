@@ -4,6 +4,7 @@
 <%@ Import Namespace="System.Configuration" %>
 <%@ Import Namespace="System.Threading" %>
 <%@ Import Namespace="log4net" %>
+<%@ Import Namespace="Sitecore" %>
 <%@ Import Namespace="Sitecore.Data.Engines" %>
 <%@ Import Namespace="Sitecore.Data.Proxies" %>
 <%@ Import Namespace="Sitecore.SecurityModel" %>
@@ -15,7 +16,6 @@
 <%@ Import Namespace="Sitecore.Publishing" %>
 <%@ Import Namespace="Sitecore.Data.Items" %>
 <%@ Import Namespace="Sitecore.Configuration" %>
-
 <%@ Page Language="C#" Debug="true" %>
 <!--
 Have fun,
@@ -47,7 +47,7 @@ Jan Bluemink, jan@mirabeau.nl
 				  {
 				      DateTime publishDate = DateTime.Now;
 				      Sitecore.Data.Database master = Sitecore.Configuration.Factory.GetDatabase("master");
-				      PublishManager.Republish(Sitecore.Client.ContentDatabase, targets, LanguageManager.GetLanguages(master).ToArray(), Sitecore.Context.Language);
+				      PublishManager.Republish(Client.ContentDatabase, targets, LanguageManager.GetLanguages(master).ToArray(), Sitecore.Context.Language);
 				  }
 			  } else {
 				  status = "Smart publish " + publishtargets;
@@ -55,7 +55,7 @@ Jan Bluemink, jan@mirabeau.nl
 				  {
 				      DateTime publishDate = DateTime.Now;
 				      Sitecore.Data.Database master = Sitecore.Configuration.Factory.GetDatabase("master");
-				      PublishManager.PublishSmart(Sitecore.Client.ContentDatabase, targets, LanguageManager.GetLanguages(master).ToArray(), Sitecore.Context.Language);
+				      PublishManager.PublishSmart(Client.ContentDatabase, targets, LanguageManager.GetLanguages(master).ToArray(), Sitecore.Context.Language);
 				  }
 			  }
 			Thread.Sleep(4000);
