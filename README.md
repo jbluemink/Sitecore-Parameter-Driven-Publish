@@ -5,6 +5,8 @@ On automatically deployment or scripted Sitecore releases you would properly als
 
 Read more on [Sitecore Stockpick](http://sitecore.stockpick.nl/) or the artikel [Sitecore development and deployment](http://sitecore.stockpick.nl/english/development-and-deployment.aspx)
 
+If you have a recent version of Sitecore there is a build in job viewer try /sitecore/admin/jobs.aspx?refresh=1
+
 ##Download Sitecore marketplace:
 The latest stable version can be downloaded on [Sitecore Marketplace](https://marketplace.sitecore.net/Modules/Parameter_driven_publish_deployment_tool.aspx)
 
