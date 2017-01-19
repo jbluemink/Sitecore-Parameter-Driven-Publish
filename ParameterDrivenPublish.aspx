@@ -165,7 +165,7 @@ Jan Bluemink, jan@mirabeau.nl
    </p>
 <hr> 
 <asp:Panel id="publishresetform" runat="server" visible="false">
-<a href="/sitecore/admin/MiraPublish.aspx">New Publish</a>
+<a href="/sitecore/admin/ParameterDrivenPublish.aspx">New Publish</a>
 </asp:Panel> 
 <asp:Panel id="publishform" runat="server" visible="true">
       <form id="MyForm" action"" method="get">
@@ -187,7 +187,7 @@ Jan Bluemink, jan@mirabeau.nl
       <b>Running Tasks</b><br/>
       <%= GetRunningTasks() %>
       </p>
-      <a href="/sitecore/admin/MiraPublish.aspx?refresh=true">Refresh</a>
+      <a href="/sitecore/admin/ParameterDrivenPublish.aspx?refresh=true">Refresh</a>
       
    </body>
 </HTML>
